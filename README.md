@@ -22,6 +22,7 @@ npm install --save-dev csv-loader xml-loader
 ```
 
 ## Output management
+---
 ```
 npm install --save-dev html-webpack-plugin
 ```
@@ -44,7 +45,7 @@ https://webpack.js.org/configuration/devtool/
 Options that help to automatic compile code whenever it changes:
 
 ### 1. webpack's Watch Mode
----
+
 
 Adding in package.json `"watch": "webpack --watch",`
 
@@ -60,12 +61,19 @@ This does not refresh browser. :(
 
 
 ### 2. webpack-dev-server ** used most cases
----
+
 ```
 npm install --save-dev webpack-dev-server
 ```
 ### 3. webpack-dev-middleware
----
+
 ```
 npm install --save-dev express webpack-dev-middleware
 ```
+## Hot Module Replacement (HMR)
+Implementation: https://webpack.js.org/guides/hot-module-replacement/
+
+Concept: https://webpack.js.org/concepts/hot-module-replacement/
+
+
+---
