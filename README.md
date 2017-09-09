@@ -34,3 +34,38 @@ The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bu
 ```
 npm install clean-webpack-plugin --save-dev
 ```
+
+## Development
+---
+
+### Devtool
+https://webpack.js.org/configuration/devtool/
+
+Options that help to automatic compile code whenever it changes:
+
+### 1. webpack's Watch Mode
+---
+
+Adding in package.json `"watch": "webpack --watch",`
+
+```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch", //this line of code
+    "build": "webpack"
+  },
+```
+
+This does not refresh browser. :(
+
+
+### 2. webpack-dev-server ** used most cases
+---
+```
+npm install --save-dev webpack-dev-server
+```
+### 3. webpack-dev-middleware
+---
+```
+npm install --save-dev express webpack-dev-middleware
+```
