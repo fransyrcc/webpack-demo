@@ -77,7 +77,7 @@ function component() {
   var element = document.createElement('div');
 
   // Lodash, now imported by this script
-  element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hola', 'webpack'], ' ');
+  element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack'], ' ');
 
   return element;
 }
