@@ -83,6 +83,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__giraffe_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__giraffe_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lakeland_landscape_jpg__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lakeland_landscape_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__lakeland_landscape_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_xml__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_xml___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__data_xml__);
+
 
 
 
@@ -101,6 +104,8 @@ function component() {
   myImage.src = __WEBPACK_IMPORTED_MODULE_2__giraffe_png___default.a;
   
   element.appendChild(myImage);
+
+  console.log(__WEBPACK_IMPORTED_MODULE_4__data_xml___default.a);
 
    return element;
 }
@@ -17852,6 +17857,12 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "0a5b6b9a22180b203bf667c3194a558b.png";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+module.exports = {"note":{"to":["John"],"from":["Maria"],"heading":["Reminder"],"body":["Do the dishes ;)"]}}
 
 /***/ })
 /******/ ]);

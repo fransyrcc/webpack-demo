@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import Giraffe from './giraffe.png';
 import Background from './lakeland_landscape.jpg';
+import Data from './data.xml';
 
 function component() {
   var element = document.createElement('div');
@@ -16,6 +17,8 @@ function component() {
   myImage.src = Giraffe;
   
   element.appendChild(myImage);
+
+  console.log(Data);
 
    return element;
 }
