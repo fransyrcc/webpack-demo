@@ -9,7 +9,8 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+   // host: 'webpack-demo.local'
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
