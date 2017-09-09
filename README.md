@@ -28,3 +28,9 @@ npm install --save-dev html-webpack-plugin
 ### HtmlWebpackPlugin
 
 The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation. You can either let the plugin generate an HTML file for you, supply your own template using lodash templates, or use your own loader.
+
+
+### Cleaning up the `/dist` folder
+```
+npm install clean-webpack-plugin --save-dev
+```
