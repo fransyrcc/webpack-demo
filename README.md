@@ -36,13 +36,15 @@ npm install clean-webpack-plugin --save-dev
 ```
 
 ## Development
+---
 
 ### Devtool
 https://webpack.js.org/configuration/devtool/
 
 Options that help to automatic compile code whenever it changes:
 
-- webpack's Watch Mode
+### 1. webpack's Watch Mode
+---
 
 Adding in package.json `"watch": "webpack --watch",`
 
@@ -57,5 +59,13 @@ Adding in package.json `"watch": "webpack --watch",`
 This does not refresh browser. :(
 
 
-- webpack-dev-server ** used most cases
-- webpack-dev-middleware
+### 2. webpack-dev-server ** used most cases
+---
+```
+npm install --save-dev webpack-dev-server
+```
+### 3. webpack-dev-middleware
+---
+```
+npm install --save-dev express webpack-dev-middleware
+```
