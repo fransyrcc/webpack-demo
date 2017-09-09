@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Giraffe from './giraffe.png';
+import Background from './lakeland_landscape.jpg';
 
 function component() {
   var element = document.createElement('div');
