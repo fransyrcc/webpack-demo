@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import Giraffe from './giraffe.png';
 
 function component() {
   var element = document.createElement('div');
@@ -8,7 +9,14 @@ function component() {
   element.innerHTML = _.join(['Hola', 'webpack'], ' ');
   element.classList.add('hello');
 
-  return element;
+  // Add the image to our existing div
+  var myImage = new Image();
+
+  myImage.src = Giraffe;
+  
+  element.appendChild(myImage);
+
+   return element;
 }
 
 document.body.appendChild(component());
